@@ -1,0 +1,906 @@
+/**********************
+
+Responsive.css
+=============
+
+Author:  Gino Aliaj
+Template: Swimmerland - Water Park HTML Template
+Version: 1.0
+
+Author URI: gnodesign.com
+***************************/
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries
+--------------------------------------------*/
+/* ---- Start of min-width 1800px CSS ---- */
+
+@media (min-width: 1800px) {
+    footer#main-footer:before {
+        height: 70px !important;
+        top: -67px !important;
+    }
+}
+
+
+/* ---- End of min-width 1800px CSS ---- */
+
+/* ---- Start of min-width 1450px CSS ---- */
+
+@media (min-width: 1450px) {
+    footer#main-footer:before {
+        height: 60px;
+        top: -57px;
+    }
+}
+
+
+/* ---- End of min-width 1450px CSS ---- */
+
+
+/* ---- Start of max-width 992px CSS ---- */
+
+@media (max-width: 992px) {
+    /**************** 
+		Signup Section
+	****************/
+    section#signup h3 {
+        text-align: center;
+    }
+    section#signup .section-title:after {
+        margin: 0 auto;
+    }
+    /**************** 
+		Footer
+	****************/
+    footer .footer-social {
+        clear: both;
+        margin-top: 50px;
+    }
+    footer .footer-newsletter {
+        margin-top: 50px;
+    }
+    /**************** 
+		Contact Pages
+	****************/
+    form#contact-form input {
+        margin: 20px 0;
+    }
+    form#contact-form {
+        margin: 30px 0 60px 0;
+    }
+    .gmaps #map {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    /**************** 
+		TOP HEADER
+	****************/
+}
+
+
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 769px CSS ---- */
+
+@media all and (max-width: 769px) {
+    /**************** 
+		Main Menu
+	****************/
+    .navbar-nav>li>a {
+        padding: 15px 0;
+    }
+    .dropdown-menu {
+        background: rgba(213, 210, 210, 0.55) !important;
+    }
+    .dropdown-menu li a {
+        color: #f6f8f8 !important;
+        padding: 15px 0 15px 30px !important;
+    }
+    /**************** 
+		Training Courses Section
+	****************/
+    section#courses .course-main .row:last-child {
+        padding: 0;
+    }
+    /**************** 
+		Count Up Section
+	****************/
+    section#countup .col-xs-12 {
+        padding: 30px 0;
+    }
+    /**************** 
+		Signup Section
+	****************/
+    section#signup {
+        background: #3cbeee;
+    }
+    /**************** 
+		Latest Events Section
+	****************/
+    section#events table {
+        border: none;
+    }
+    /**************** 
+		About Page
+	****************/
+    section#about .about-vid .vid-container {
+        width: 100%;
+    }
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 40px;
+        margin-left: 0;
+        top: 15px;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+}
+
+
+/* ---- End of max-width 769px CSS ---- */
+
+
+/* ---- Start of max-width 580px CSS ---- */
+
+@media all and (max-width: 580px) {
+    /**************** 
+		Main Slider Section
+	****************/
+    .slider-content {
+        top: 30%;
+    }
+    .slider-content h3 span {
+        font-size: 45px;
+    }
+    .swiper-pagination {
+        height: 0;
+    }
+    /**************** 
+		Gallery Section
+	****************/
+    ul.gallery-sorting li {
+        margin-bottom: 50px;
+    }
+    /**************** 
+		Testimonial Section
+	****************/
+    #sync1 .item .testimonial {
+        padding-left: 0;
+        padding-top: 70px;
+    }
+    /**************** 
+		Footer
+	****************/
+    footer .col-xs-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    footer .footer-social {
+        clear: both;
+        margin-top: 0;
+    }
+    footer .footer-newsletter {
+        margin-top: 0;
+    }
+}
+
+
+/* ---- End of max-width 580px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+
+@media all and (max-width: 420px) {
+    /**************** 
+		Main Menu
+	****************/
+    .navbar-brand {
+        width: 100%;
+    }
+    .navbar-brand img {
+        margin: 0 auto;
+    }
+    .navbar-header {
+        clear: both;
+        width: 100%;
+        position: relative;
+    }
+    .navbar-toggle {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /**************** 
+		Main Slider Section
+	****************/
+    .slider-content h3 span {
+        font-size: 36px;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+    /**************** 
+		Blog Section
+	****************/
+    .blog-post .blog-desc {
+        overflow: hidden;
+        padding: 30px 0;
+    }
+    /**************** 
+		Blog Detail Page
+	****************/
+    form#comment-form .comment-require {
+        text-align: center;
+    }
+    form#comment-form .comment-require .btn {
+        float: none !important;
+    }
+    /**************** 
+		404 Page
+	****************/
+    #not-found.main {
+        height: 100vh;
+    }
+}
+
+
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+
+@media all and (max-width: 380px) {
+    /**************** 
+		Testimonial Section
+	****************/
+    #sync2 .item .client-img {
+        width: 100%;
+    }
+    #sync2 .item img {
+        margin: 0 auto;
+    }
+    #sync2 .item .details {
+        width: 100%;
+        padding: 0;
+    }
+    #sync2 .item .details h4,
+    #sync2 .item .details h6 {
+        text-align: center;
+    }
+    /**************** 
+		Latest Events Section
+	****************/
+    section#events .col-md-6 {
+        padding: 40px 0 0 0;
+    }
+    section#events table {
+        margin-left: -15px;
+    }
+    .calendar td {
+        font-size: 16px;
+    }
+    /**************** 
+		About Page
+	****************/
+    ul.timeline:before {
+        display: none;
+    }
+    ul.timeline > li > .timeline-badge {
+        display: none;
+    }
+    .timeline > li > .timeline-panel {
+        width: 100% !important;
+    }
+    /**************** 
+		404 Page
+	****************/
+    section#not-found .error-detail h2 {
+        font-size: 160px;
+    }
+    section#not-found img {
+        width: 250px;
+    }
+}
+
+
+/* ---- End of max-width 380px CSS ---- */
+
+
+/* ---- Start of max-width 320px CSS ---- */
+
+@media all and (max-width: 320px) {
+    /**************** 
+		Main Slider Section
+	****************/
+    .slider-content h3 span {
+        font-size: 30px;
+    }
+    /**************** 
+		404 Page
+	****************/
+    section#not-found .error-detail h2 {
+        font-size: 140px;
+    }
+}
+
+
+/* ---- End of max-width 320px CSS ---- */
+
+
+/* ---- Start of max-height 420px CSS ---- */
+
+@media screen and (max-height: 420px) {
+    /**************** 
+		Main Slider Section
+	****************/
+    .fullscreen {
+        height: 550px;
+    }
+    nav.navbar {
+        margin: 0;
+    }
+    /**************** 
+		404 Page
+	****************/
+    #not-found.main {
+        height: 700px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- RESPONSIVE ----------------- */
+
+
+/* RESPONSIVE MENU MENOR QUE CONTENEDOR */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .barra-fondo, .barra-fondo2, .barra-fondo2-white {
+        background: none;
+    }
+
+
+  
+}
+/* FIN RESPONSIVE MENU MENOR QUE CONTENEDOR */
+
+/* RESPONSIVE TABLETS HORIZONTALES Y NETBOOKS */
+
+@media (min-width: 768px) and (max-width: 1000px) { 
+    .navbar-header {
+        display: block !important;
+    }
+    .navegacion-principal {
+        display: none;
+    }
+
+    .barra-fondo, .barra-fondo2, .barra-fondo2-white {
+        background: none;
+    }
+
+    /* --------------- Index --------------- */
+
+    .faqs-right-img img {
+        width: 100%;
+    }
+
+    footer .footer-news {
+        display: none;
+    }
+
+    footer .footer-newsletter {
+        margin-top: 0px;
+    }
+
+    footer .footer-social li:nth-child(3), footer .footer-social li:nth-child(4) {
+        display: none;
+    }
+
+    footer .footer-nav {
+        display: none;
+    }
+
+    /* --------------- Acerca --------------- */
+
+    .video-proposito {
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+
+    .ceo {
+        margin: 50px 15px 0px 15px;
+        padding-bottom: 15px;
+    }
+
+    .ceoresp {
+        display: block;
+    }
+
+    .ceodesk {
+        display: none;
+    }
+
+    .numero {
+        float: left;
+        padding-top: 50px;
+    }
+
+    .integracion h4 {
+        float: left;
+        margin-top: 35px;
+    }
+
+    .integracion p {
+        float: left;
+    }
+
+    #issues li p {
+        font-size: 11px;
+        width: 80%;
+    }
+
+    /* --------------- Desarrollos --------------- */
+
+    .controls .btn {
+        margin: 5px;
+    }
+
+    .texto-filtro p {
+        padding: 0px 0px 5px 0px;
+    }
+
+    /* --------------- Desarrollo --------------- */
+
+    #amenities img {
+        display: none;
+    }
+
+    .window-container {
+        left: 15%;
+        width: 70%;
+        margin: 0px;
+    }
+
+    .window-container input {
+        height: 45px !important;
+    }
+
+    .window-container textarea {
+        height: 85px !important;
+    }
+
+    /* --------------- Contacto --------------- */
+
+    .datos {
+        margin-bottom: 30px;
+    }
+ }
+/* FIN RESPONSIVE TABLETS HORIZONTALES Y NETBOOKS */
+
+/* RESPONSIVE MOVILES HORIZONTALES Y TABLETS VERTICALES*/
+
+@media (max-width: 768px) { 
+    .navbar-header {
+        display: block !important;
+    }
+    .navegacion-principal {
+        display: none;
+    }
+
+    .barra-fondo, .barra-fondo2, .barra-fondo2-white {
+        background: none;
+    }
+
+    /* --------------- Index --------------- */
+
+    .faqs-right-img img {
+        width: 100%;
+    }
+
+    section#emprendimientos-destacados .sub-emprend-home, section#emprendimientos-destacados .titulo {
+        margin-right: 15px;
+    }
+
+    footer form input.form-control, footer form textarea.form-control {
+        width: 100% !important;
+    }
+
+    footer .footer-nav {
+        display: none;
+    }
+
+    /* --------------- Acerca --------------- */
+
+    #proposito .subtitulo, #proposito .titulo {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    #ventajas .subtitulo-2, #ventajas .titulo-2 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    #equipo .subtitulo, #equipo .titulo {
+        margin-left: 15px;
+    }
+
+    .video-proposito {
+        height: 360px;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+
+    .ceo {
+        margin: 50px 15px 0px 15px;
+        padding-bottom: 15px;
+    }
+
+    .ceoresp {
+        display: block;
+    }
+
+    .ceodesk {
+        display: none;
+    }
+
+    .numero {
+        float: left;
+        padding-top: 50px;
+    }
+
+    #logros {
+        display: none;
+    }
+
+    .integracion h4 {
+        float: left;
+        margin-top: 35px;
+    }
+
+    .integracion p {
+        float: left;
+    }
+
+    /* --------------- Desarrollos --------------- */
+
+    #emprendimientos .subtitulo, #emprendimientos .titulo {
+        margin-left: 15px;
+    }
+
+    .controls .btn {
+        margin: 5px;
+    }
+
+    .texto-filtro p {
+        padding: 0px 0px 5px 0px;
+    }
+
+    /* --------------- Desarrollo --------------- */
+
+    #grad_left, #grad_right {
+        height: 300px;
+    }
+
+    #amenities img {
+        display: none;
+    }
+
+    .window-container {
+        left: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .window-container input {
+        height: 45px !important;
+    }
+
+    .window-container textarea {
+        height: 85px !important;
+    }
+
+    /* --------------- Contacto --------------- */
+
+    #contact .subtitulo, #contact .titulo {
+        margin-left: 15px;
+    }
+
+    .datos {
+        margin-bottom: 30px;
+    }
+
+    #contact-map {
+        padding-bottom: 0px;
+    }
+
+ }
+
+/* FIN RESPONSIVE MOVILES HORIZONTALES Y TABLETS VERTICALES*/
+
+/* RESPONSIVE MOVILES VERTICALES*/
+
+@media (max-width: 480px) { 
+    #menu .logo, #menu .logo2 {
+        margin-left: 0px;
+        margin-top: 7px;
+        width: 150px;
+    }
+    .navbar-header {
+        display: block !important;
+    }
+    .navegacion-principal {
+        display: none;
+    }
+
+    .barra-fondo, .barra-fondo2, .barra-fondo2-white {
+        background: none;
+    }
+
+    #pages.main .page-title-extended h2 {
+        font-size: 30px;
+    }
+
+    /* --------------- Index --------------- */
+
+    .faqs-right-img img {
+        width: 100%;
+    }
+
+    section#emprendimientos-destacados .sub-emprend-home {
+        font-size: 35px;
+        margin-right: 15px;
+    }
+
+    section#emprendimientos-destacados .titulo {
+        margin-right: 15px;
+    }
+
+    .qt-gridstackDiamonds .qt-gsd-item {
+        transform: none !important;
+        width: 89% !important;
+        height: 250px !important;
+    }
+
+    .qt-gridstackDiamonds .qt-gsd-item .grid-inner {
+        transform: none !important;
+    }
+
+    .qt-gridstackDiamonds .qt-gsd-item:nth-child(5n+4), .qt-gridstackDiamonds .qt-gsd-item:nth-child(5n+6):last-of-type {
+        margin-left: 5.5%;
+        margin-top: 5%;
+        margin-bottom: 21.833%;
+    }
+
+    footer form input.form-control {
+        height: 40px;
+        border: 0;
+        border-radius: 3px !important;
+        margin-top: 10px;
+        padding: 0 0 0 30px;
+        width: 100% !important;
+        opacity: .9;
+        z-index: 0 !important;
+    }
+
+    footer form textarea.form-control {
+        border: 0;
+        border-radius: 3px !important;
+        margin-top: 10px;
+        padding: 15px 0 0 30px;
+        width: 100% !important;
+        opacity: .9;
+        z-index: 0 !important;
+    }
+
+    footer .footer-social {
+        margin-bottom: 0px;
+    }
+
+    footer .footer-social li {
+        margin-left: 5px;
+    }
+
+    footer .footer-social li:nth-child(3), footer .footer-social li:nth-child(4) {
+        display: none;
+    }
+
+    footer .footer-nav {
+        display: none;
+    }
+
+    /* --------------- Acerca --------------- */
+
+    #proposito .subtitulo, #proposito .titulo {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .video-proposito {
+        height: 300px;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+
+    #ventajas .subtitulo-2, #ventajas .titulo-2 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    #equipo .subtitulo, #equipo .titulo {
+        margin-left: 15px;
+    }
+
+    .ceo {
+        margin: 50px 15px 0px 15px;
+        padding-bottom: 15px;
+    }
+
+    .ceoresp {
+        display: block;
+    }
+
+    .ceodesk {
+        display: none;
+    }
+
+    .numero {
+        float: left;
+        padding-top: 50px;
+    }
+
+    #logros {
+        display: block;
+    }
+
+    #grad_left, #grad_right {
+        display: none;
+    }
+
+    .integracion h4 {
+        float: left;
+        margin-top: 35px;
+    }
+
+    .integracion p {
+        float: left;
+    }
+
+
+    /* --------------- Desarrollos --------------- */
+
+    #emprendimientos .subtitulo, #emprendimientos .titulo {
+        font-size: 20px;
+        margin-left: 15px;
+    }
+
+    .listing-address {
+        font-size: 11px;
+    }
+
+    .listing-badges .featured {
+        display: none;
+    }
+
+    .listing-features li:first-child {
+        display: none;
+    }
+
+    .listing-footer {
+        font-size: 10px;
+    }
+
+    .controls .btn {
+        margin: 5px;
+    }
+
+    /* --------------- Desarrollo --------------- */
+
+    #manifiesto, #ubicacion {
+    background: url('../images/backemp.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    #amenities img {
+        display: none;
+    }
+
+    #amenities .subtitulo {
+        font-size: 30px;
+    }
+
+    .window-container {
+        left: 0px;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .window-container input {
+        height: 45px !important;
+    }
+
+    .window-container textarea {
+        height: 75px !important;
+    }
+
+    .window-container h3 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .cierre {
+        width: 15px;
+    }
+
+    /* --------------- Contacto --------------- */
+
+    #contact .subtitulo, #contact .titulo {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .datos {
+        margin-bottom: 30px;
+    }
+
+    .gmaps2 {
+        padding-bottom: 0px;
+    }
+
+}
+/* FIN RESPONSIVE MOVILES VERTICALES*/
