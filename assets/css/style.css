@@ -14,8 +14,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #444;
+
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 800;
 }
 
 h4 {
@@ -119,6 +120,11 @@ form.signup button.btn {
 }
 form.signup input.form-control:focus {
 	border-color: #fd680e;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 
