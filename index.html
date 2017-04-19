@@ -92,12 +92,12 @@
              <div class="container col-sm-12 col-md-12 col-lg-12" style="margin-top: 25px">
             <hr>
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <h3 class="subtitle" style="margin-top: 20px; padding-left: 30px; padding-right: 30px">TOOLBOX</h3>
+                    <h3 class="subtitle" style="margin-top: 20px; padding-left: 30px; padding-right: 30px">FOCUS</h3>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Server Maintenance and Support</h3>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Version Control (SCM)</h3>
+                        <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Version Control</h3>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
                         <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Collaboration & Backlog</h3>
@@ -121,7 +121,7 @@
                         <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Automation & Orchestration</h3>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
-                        <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Database & Big Data</h3>
+                        <h3 class="subtitle" style="color: #288dbf; margin-top: 20px; padding-left: 30px; padding-right: 30px">Data Analitics</h3>
                     </div> 
             </div>
             <!-- Section Last-->
@@ -165,13 +165,11 @@ $(document).ready( function () {
         });
     }
 });
-
 function appendResult(userText , className, iconClass){
   var resultHTML = "<div class='stretchLeft result "+ className + "'>" + userText + " <span class='fa fa-" + iconClass + "'></span>" + "</div>";
   $('body').append(resultHTML);
   $('.result').delay(10000).fadeOut('1000');
 }
-
 function register($form) {
     $.ajax({
         type: $form.attr('method'),
